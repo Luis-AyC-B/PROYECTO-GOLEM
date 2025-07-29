@@ -43,7 +43,10 @@ Funcionalidad para llamar servicios de emergencia.
 - Incluye la ubicación geográfica del incidente.
 - Registro del evento para seguimiento.
 - Solicitud de Servicio de Emergencia
+
+
 [![Whats-App-Image-2025-07-18-at-20-26-42.jpg](https://i.postimg.cc/448zs2fp/Whats-App-Image-2025-07-18-at-20-26-42.jpg)](https://postimg.cc/t7x1z5Vg)
+
 ---
 ## Tecnologías Utilizadas
 
