@@ -44,6 +44,24 @@ Funcionalidad para llamar servicios de emergencia.
 - Registro del evento para seguimiento.
 - Solicitud de Servicio de Emergencia
 ---
+## Tecnologías Utilizadas
+
+- Lenguajes: CSS, HTML y JavaScript
+- IDE: Visual Studio
+- UML:    
+    ○ Diagrama de casos de uso
+    ○ Diagramas de clases de análisis
+    ○ Diagramas de colaboración
+    ○ Diagrama de clases de diseño
+    ○ Diagramas de estado
+    ○ Diagramas de actividades
+    ○ Diagramas de secuencia
+    ○ Diagrama de componentes
+    ○ Diagrama de despliegue
+
+- Localización: Uso de coordenadas GPS (simuladas)
+---
+
 ---
 ##  Consideraciones de Diseño
 
@@ -56,4 +74,5 @@ Funcionalidad para llamar servicios de emergencia.
   - Incluye animaciones y retroalimentación visual que confirman al usuario la recepción de la petición de emergencia.
 
 - **Simulación de ubicación y notificaciones**  
-  - En entornos de prueba, se carga un conjunto de coordenadas predefinidas para verificar el comportamiento de zonas de riesgo sin requerir GPS real.  
+  - En entornos de prueba, se carga un conjunto de coordenadas predefinidas para verificar el comportamiento de zonas de riesgo sin requerir GPS real. 
+   
