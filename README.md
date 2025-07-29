@@ -44,3 +44,16 @@ Funcionalidad para llamar servicios de emergencia.
 - Registro del evento para seguimiento.
 - Solicitud de Servicio de Emergencia
 ---
+---
+##  Consideraciones de Diseño
+
+- **Relaciones entre casos de uso**  
+  - Se emplean `<<include>>` para factorizar pasos comunes (por ejemplo, validación de usuario o registro de datos).  
+  - Se utilizan `<<extend>>` para incorporar flujos opcionales o de excepción.
+
+- **Acceso directo al botón de pánico (SOS)**  
+  - El botón SOS permanece siempre visible en la barra de navegación principal, garantizando activación inmediata desde cualquier pantalla.  
+  - Incluye animaciones y retroalimentación visual que confirman al usuario la recepción de la petición de emergencia.
+
+- **Simulación de ubicación y notificaciones**  
+  - En entornos de prueba, se carga un conjunto de coordenadas predefinidas para verificar el comportamiento de zonas de riesgo sin requerir GPS real.  
