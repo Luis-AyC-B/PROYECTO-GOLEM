@@ -46,22 +46,55 @@ Funcionalidad para llamar servicios de emergencia.
 ---
 ## Tecnologías Utilizadas
 
-- Lenguajes: CSS, HTML y JavaScript
-- IDE: Visual Studio
-- UML:    
-    ○ Diagrama de casos de uso
-    ○ Diagramas de clases de análisis
-    ○ Diagramas de colaboración
-    ○ Diagrama de clases de diseño
-    ○ Diagramas de estado
-    ○ Diagramas de actividades
-    ○ Diagramas de secuencia
-    ○ Diagrama de componentes
-    ○ Diagrama de despliegue
+- **Lenguajes:** HTML, CSS, JavaScript  
+- **IDE:** Visual Studio Code  
+- **Modelado UML:**
+  - Diagrama de Casos de Uso
+  - Diagramas de Clases de Análisis
+  - Diagramas de Colaboración
+  - Diagrama de Clases de Diseño
+  - Diagramas de Estado
+  - Diagramas de Actividades
+  - Diagramas de Secuencia
+  - Diagrama de Componentes
+  - Diagrama de Despliegue
+- **Localización:** Uso de coordenadas GPS (simuladas)
 
-- Localización: Uso de coordenadas GPS (simuladas)
 ---
 ## 📂 Estructura del Proyecto
+```plaintext
+MapZonas/
+├── css/
+│   ├── alerta1/
+│   │   ├── global.css
+│   │   ├── style.css
+│   │   └── styleguide.css
+│   ├── alerta2/
+│   │   ├── global.css
+│   │   ├── style.css
+│   │   └── styleguide.css
+│   ├── formulario/
+│   │   └── style.css
+│   ├── index/
+│   │   ├── global.css
+│   │   ├── style.css
+│   │   └── styleguide.css
+│   └── menu/
+│       └── style.css
+├── html/
+│   ├── formularioindex2.html
+│   ├── index.html
+│   ├── mensajeindex3.html
+│   ├── mensajeindex4.html
+│   └── menu.html
+├── images/
+│   ├── alerta/
+│   ├── formulario/
+│   ├── index/
+│   └── menu/
+├── js/
+│   └── formulario.js
+└── README.md
 
 📁 MapZonas
 ┣ 📂 css
@@ -110,3 +143,16 @@ Funcionalidad para llamar servicios de emergencia.
 - **Simulación de ubicación y notificaciones**  
   - En entornos de prueba, se carga un conjunto de coordenadas predefinidas para verificar el comportamiento de zonas de riesgo sin requerir GPS real. 
    
+## Contacto
+
+Para consultas o sugerencias, contacta al equipo de desarrollo:  
+CARLOS DIEGO MARISCAL SEGOVIA- 202400343
+CRISTHIAN ALBA ZAPATA- 202403432
+DANIEL TEODORO FLORES MAMANI- 202401564
+JOSUE JOEL LIZARAZU FERNÁNDEZ- 202400324
+LUIS ANGEL CLAROS BAZOALTO - 202401181
+
+
+---
+
+> Proyecto desarrollado como parte de la materia de Sistemas de información 1.
