@@ -61,6 +61,40 @@ Funcionalidad para llamar servicios de emergencia.
 
 - Localización: Uso de coordenadas GPS (simuladas)
 ---
+## 📂 Estructura del Proyecto
+
+📁 MapZonas
+┣ 📂 css
+┃ ┣ 📂 alerta1
+┃ ┃ ┣ 📄 global.css
+┃ ┃ ┣ 📄 style.css
+┃ ┃ ┗ 📄 styleguide.css
+┃ ┣ 📂 alerta2
+┃ ┃ ┣ 📄 global.css
+┃ ┃ ┣ 📄 style.css
+┃ ┃ ┗ 📄 styleguide.css
+┃ ┣ 📂 formulario
+┃ ┃ ┗ 📄 style.css
+┃ ┣ 📂 index
+┃ ┃ ┣ 📄 global.css
+┃ ┃ ┣ 📄 style.css
+┃ ┃ ┗ 📄 styleguide.css
+┃ ┣ 📂 menu
+┃ ┃ ┗ 📄 style.css
+┣ 📂 html
+┃ ┣ 📄 formularioindex2.html
+┃ ┣ 📄 index.html
+┃ ┣ 📄 mensajeindex3.html
+┃ ┣ 📄 mensajeindex4.html
+┃ ┗ 📄 menu.html
+┣ 📂 images
+┃ ┣ 📂 alerta
+┃ ┣ 📂 formulario
+┃ ┣ 📂 index
+┃ ┗ 📂 menu
+┣ 📂 js
+┃ ┗ 📄 formulario.js
+📄 README.md
 
 ---
 ##  Consideraciones de Diseño
