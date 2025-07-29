@@ -19,3 +19,27 @@ Los usuarios pueden solicitar acceso a grupos locales y ser aprobados por un usu
 - Verificación de pertenencia previa.
 - Registro de solicitud y notificación al Chief.
 - Validación y respuesta automatizada.
+
+###  Ver Mapa Interactivo
+Los usuarios pueden ver el mapa interactivo y poder ver el porcentaje de riesgo.
+
+- Acceso a la ubicación actual.
+- Mapa con representación visual de peligros por zona.
+- Incluye alertas activas y puntos de reunión.
+
+###  Ver Reseñas
+Cualquier usuario puede visualizar reseñas de zonas, grupos u otros usuarios.
+
+- Filtro por fecha o puntuación.
+- Visualización de detalles.
+- Posibilidad de reportar contenido.
+
+###  Botón de Pánico
+Funcionalidad para llamar servicios de emergencia.
+
+- Disponible desde cualquier parte del sistema.
+- Envía alertas a usuarios "Chief" cercanos y autoridades conectadas.
+- Incluye la ubicación geográfica del incidente.
+- Registro del evento para seguimiento.
+- Solicitud de Servicio de Emergencia
+---
