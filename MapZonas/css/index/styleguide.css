@@ -1,0 +1,22 @@
+:root {
+  --m3-headline-small-emphasized-font-family: "Roboto", Helvetica;
+  --m3-headline-small-emphasized-font-weight: 500;
+  --m3-headline-small-emphasized-font-size: 24px;
+  --m3-headline-small-emphasized-letter-spacing: 0px;
+  --m3-headline-small-emphasized-line-height: 32px;
+  --m3-headline-small-emphasized-font-style: normal;
+  --m3-elevation-light-3: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px
+    rgba(0, 0, 0, 0.15);
+  --colors-text-text-default: var(--colors-text-default-default);
+  --colors-bg-bg-secondary: var(--colors-bg-default-secondary);
+  --colors-border-border-default: var(--colors-border-default-default);
+  --colors-bg-bg-default: var(--colors-bg-default-default);
+  --colors-text-default-default: var(--colors-black-800);
+  --colors-bg-default-secondary: var(--colors-grey-100);
+  --colors-border-default-default: var(--colors-grey-200);
+  --colors-bg-default-default: var(--colors-white-1000);
+  --colors-black-800: rgba(0, 0, 0, 0.9);
+  --colors-grey-100: rgba(245, 245, 245, 1);
+  --colors-grey-200: rgba(230, 230, 230, 1);
+  --colors-white-1000: rgba(255, 255, 255, 1);
+}

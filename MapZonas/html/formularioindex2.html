@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/formulario/style.css" />
+    <title>Formulario de Emergencia</title>
+</head>
+<body>
+    <div class="emergency-forms">
+        <div class="container">
+            <div class="status-bar">
+                <span id="footer-datetime">--:--</span>
+            </div>
+
+            <header class="header">
+                <a href="../html/index.html" class="icon-chevron-left">←</a>
+                <div class="header-title">Formulario de Emergencia</div>
+            </header>
+
+            <div class="form-section">
+                <div class="form-field">
+                    <div class="field-label">Nombre</div>
+                    <input type="text" class="field-input" placeholder="Ingresa tu nombre" />
+                </div>
+
+                <div class="form-field">
+                    <div class="field-label">Ubicación</div>
+                    <input type="text" class="field-input" placeholder="Tu ubicación actual" />
+                </div>
+
+                <div class="form-field">
+                    <div class="field-label">Tipo de emergencia</div>
+                    <select class="field-input">
+                        <option value="">Selecciona tipo de emergencia</option>
+                        <option value="medica">Emergencia Médica</option>
+                        <option value="accidente">Accidente de Tránsito</option>
+                        <option value="robo">Robo/Asalto</option>
+                        <option value="violencia">Violencia Doméstica</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <div class="description-title">Descripción de Emergencia</div>
+                <div class="description-content">
+                    <div class="description-item">
+                        <span class="description-label">Tipo de emergencia</span>
+                        <span class="description-value">-</span>
+                    </div>
+                    <div class="description-item">
+                        <span class="description-label">Nombre</span>
+                        <span class="description-value">-</span>
+                    </div>
+                    <div class="description-item">
+                        <span class="description-label">Ubicación</span>
+                        <span class="description-value">-</span>
+                    </div>
+                    <div class="description-item">
+                        <span class="description-label">Fecha</span>
+                        <span class="description-value" id="currentDate">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="camera-section">
+                <div class="field-label" style="margin-bottom: 16px;">Evidencia</div>
+                
+                <div class="camera-container">
+                    <video id="video" autoplay playsinline></video>
+                    <canvas id="canvas"></canvas>
+                    <img id="capturedPhoto" class="photo-overlay" style="display: none;" />
+                </div>
+
+                <div id="cameraControls" class="camera-controls" style="display: flex;">
+                    <button id="snapBtn" class="camera-btn snap-btn">Tomar Foto</button>
+                    <button id="retakeBtn" class="camera-btn retake-btn" style="display: none;">Repetir</button>
+                </div>
+
+                <div id="errorMsg" class="error-msg"></div>
+            </div>
+            <div style="height: 80px;"></div> 
+        </div>
+    </div>
+
+    <div class="bottom-section">
+        <button class="submit-btn" onclick="enviarFormulario()">Enviar</button>
+    </div>
+    <script src="../js/formulario.js"></script>
+</body>
+</html>

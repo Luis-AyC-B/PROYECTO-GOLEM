@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/index/global.css" />
+    <link rel="stylesheet" href="../css/index/style.css" />
+    <link rel="stylesheet" href="../css/index/styleguide.css" />
+    <title>Mapa</title>
+  </head>
+  <body>
+    <div class="maps">
+      <div class="div">
+        <div id="reloj">
+          <span id="footer-datetime">--:--</span>
+        </div>
+        <div class="overlap">
+          <img class="image" src="../images/index/image-1.png" />
+          <div class="handle"><div class="handle-2"></div></div>
+          <img id="pinDeMapa" class="map-pin" src="../images/index/map-pin.png" />
+          <img class="shape-set" src="../images/index/Shape Set (1).png" />
+          <img class="img" src="../images/index/Shape Set.png" />
+          <img class="shape-set-2" src="../images/index/Shape Set (2).png" />
+          <div class="search">
+            <div class="search-2">
+              <div class="icon-search">
+                <div class="overlap-group">
+                  <img class="vector" src="../images/index/Search.png" />
+                </div>
+              </div>
+              <div class="text"><div class="text-wrapper">Hospitales</div></div>
+              <div class="icon-edit"><img class="vector-3" src="../images/index/Vector.png" /></div>
+            </div>
+            <div class="text-2">12 resultados</div>
+            <div class="filter-sorting">
+              <div class="sorting">
+                <div class="label">
+                  <div class="label-2">Porcentaje</div>
+                  <img class="icon-chevron" src="../images/index/Chevron.png" />
+                </div>
+              </div>
+            </div>
+            <a href="../html/menu.html"><img class="menu" src="../images/index/Menu.png" /></a>
+          </div>
+          <div class="tab-bar">
+            <div class="overlap-2">
+                <div class="tabs">
+                <div class="tab-bar-item"><img class="icon-home" src="../images/index/home.png" /></div>
+                <img class="message-square" src="../images/index/Message square.png" />
+                <img class="alert-triangle" src="../images/index/Alert triangle.png" />
+                <img class="person" src="../images/index/person.png" />
+              </div>
+              <div class="home-indicator"><div class="home-indicator-2"></div></div>
+              <img class="map" src="../images/index/Icon.png" />
+            </div>
+          </div>
+          <div class="bottom-button">
+            <a href="formularioindex2.html" id="boton"><img src="../images/index/Bottom button.png"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function updateDateTime() {
+        const now = new Date();
+        const formatted = now.toLocaleTimeString('es-ES', {
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false 
+        });
+        document.getElementById('footer-datetime').textContent = formatted;
+      }
+
+      setInterval(updateDateTime, 1000);
+      updateDateTime();
+    </script>
+  </body>
+</html>
