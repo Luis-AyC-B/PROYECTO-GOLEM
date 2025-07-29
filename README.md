@@ -1,9 +1,9 @@
 # PROYECTO-GOLEM
-Ver mapa
+[![Whats-App-Image-2025-07-28-at-23-31-40.jpg](https://i.postimg.cc/7YfS61hd/Whats-App-Image-2025-07-28-at-23-31-40.jpg)](https://postimg.cc/w7Y14mhQ)
 # Sistema de Gestión Vecinal
 
 Este proyecto es un sistema interactivo que permite a los usuarios registrarse, acceder a grupos vecinales, visualizar mapas interactivos de zonas, y consultar o publicar reseñas relacionadas a su comunidad. Está orientado a fomentar la organización comunitaria y mejorar la seguridad ciudadana.
-
+[![Whats-App-Image-2025-07-29-at-11-39-02.jpg](https://i.postimg.cc/T3bmjRrc/Whats-App-Image-2025-07-29-at-11-39-02.jpg)](https://postimg.cc/xX0cnVpk)
 ---
 
 ## Funcionalidades Principales
@@ -43,6 +43,7 @@ Funcionalidad para llamar servicios de emergencia.
 - Incluye la ubicación geográfica del incidente.
 - Registro del evento para seguimiento.
 - Solicitud de Servicio de Emergencia
+[![Whats-App-Image-2025-07-18-at-20-26-42.jpg](https://i.postimg.cc/448zs2fp/Whats-App-Image-2025-07-18-at-20-26-42.jpg)](https://postimg.cc/t7x1z5Vg)
 ---
 ## Tecnologías Utilizadas
 
@@ -63,39 +64,6 @@ Funcionalidad para llamar servicios de emergencia.
 ---
 ## 📂 Estructura del Proyecto
 ```plaintext
-MapZonas/
-├── css/
-│   ├── alerta1/
-│   │   ├── global.css
-│   │   ├── style.css
-│   │   └── styleguide.css
-│   ├── alerta2/
-│   │   ├── global.css
-│   │   ├── style.css
-│   │   └── styleguide.css
-│   ├── formulario/
-│   │   └── style.css
-│   ├── index/
-│   │   ├── global.css
-│   │   ├── style.css
-│   │   └── styleguide.css
-│   └── menu/
-│       └── style.css
-├── html/
-│   ├── formularioindex2.html
-│   ├── index.html
-│   ├── mensajeindex3.html
-│   ├── mensajeindex4.html
-│   └── menu.html
-├── images/
-│   ├── alerta/
-│   ├── formulario/
-│   ├── index/
-│   └── menu/
-├── js/
-│   └── formulario.js
-└── README.md
-
 📁 MapZonas
 ┣ 📂 css
 ┃ ┣ 📂 alerta1
@@ -128,7 +96,8 @@ MapZonas/
 ┣ 📂 js
 ┃ ┗ 📄 formulario.js
 📄 README.md
-
+```
+[![Whats-App-Image-2025-07-15-at-22-54-40.jpg](https://i.postimg.cc/NFPTDFJd/Whats-App-Image-2025-07-15-at-22-54-40.jpg)](https://postimg.cc/LgLn69MP)
 ---
 ##  Consideraciones de Diseño
 
@@ -156,3 +125,4 @@ LUIS ANGEL CLAROS BAZOALTO - 202401181
 ---
 
 > Proyecto desarrollado como parte de la materia de Sistemas de información 1.
+[![Whats-App-Image-2025-07-29-at-11-24-22.jpg](https://i.postimg.cc/gkQ86w6J/Whats-App-Image-2025-07-29-at-11-24-22.jpg)](https://postimg.cc/w757Cj28)
